@@ -40,6 +40,7 @@
 | Day 14 | **字符串与双指针周复习** — 综合测试、五大套路模板、Mini Test五题精讲 | ⭐⭐⭐ | [📖 查看](week-02-string-pointer/Day14-字符串双指针周复习-从零到精通.md) |
 | Day 15 | **栈基础** — 有效括号、简化路径、最小栈、逆波兰表达式、移除星号、小行星碰撞 | ⭐⭐⭐ | [📖 查看](week-03-stack-queue-linkedlist/Day15-栈基础-从零到精通.md) |
 | Day 16 | **栈进阶** — 单调栈、字符串解码、表达式计算、柱状图最大矩形 | ⭐⭐⭐ | [📖 查看](week-03-linkedlist-tree/Day16-栈进阶-从零到精通.md) |
+| Day 17 | **队列+设计** — 队列FIFO、滑动窗口过期清理、BFS层序遍历、双队列轮询、CBTInserter设计模式 | ⭐⭐⭐ | [📖 查看](week-03-stack-queue-linkedlist/Day17-队列+设计-从零到精通.md) |
 
 ---
 
