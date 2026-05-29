@@ -44,6 +44,7 @@
 | Day 16 | **栈进阶** — 单调栈、字符串解码、表达式计算、柱状图最大矩形 | ⭐⭐⭐ | [📖 查看](week-03-linkedlist-tree/Day16-栈进阶-从零到精通.md) |
 | Day 17 | **队列+设计** — 队列FIFO、滑动窗口过期清理、BFS层序遍历、双队列轮询、CBTInserter设计模式 | ⭐⭐⭐ | [📖 查看](week-03-stack-queue-linkedlist/Day17-队列+设计-从零到精通.md) |
 | Day 18 | **链表基础** — 环形链表、环入口、相交链表、反转链表、合并有序链表、两数相加 | ⭐⭐ | [📖 查看](week-03-stack-queue-linkedlist/Day18-链表基础-从零到精通.md) |
+| Day 19 | **链表进阶** — 删除倒N节点、删除中间节点、奇偶链表、重排链表、回文链表、深拷贝 | ⭐⭐⭐ | [📖 查看](week-03-stack-queue-linkedlist/Day19-链表进阶-从零到精通.md) |
 
 ---
 
