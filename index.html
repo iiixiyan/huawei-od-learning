@@ -430,7 +430,7 @@ pre:hover .copy-btn { opacity: 1; }
 
 <script>
 // ===== Config =====
-const GITEE_RAW = 'https://gitee.com/iiixiyan/huawei-od-learning/raw/master';
+
 
 // ===== Markdown config =====
 marked.setOptions({
@@ -464,9 +464,10 @@ async function loadReadme() {
   setActiveNav('nav-home');
 
   try {
-    const resp = await fetch(`${GITEE_RAW}/README.md`);
+    const resp = await fetch('https://gitee.com/api/v5/repos/iiixiyan/huawei-od-learning/contents/README.md');
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
-    const md = await resp.text();
+    const data = await resp.json();
+    const md = atob(data.content);
     const html = marked.parse(md);
     main.innerHTML = `
       <div class="welcome">
@@ -509,12 +510,14 @@ async function loadDoc(path) {
   // Remove active from all items
   document.querySelectorAll('.sidebar-item').forEach(el => el.classList.remove('active'));
 
-  const url = `${GITEE_RAW}/${path}`;
+  const url = `https://gitee.com/api/v5/repos/iiixiyan/huawei-od-learning/contents/${path}`;
 
   try {
     const resp = await fetch(url);
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
-    const md = await resp.text();
+    const data = await resp.json();
+    // Gitee API returns base64-encoded content
+    const md = atob(data.content);
     const html = marked.parse(md);
 
     // Extract title for header
