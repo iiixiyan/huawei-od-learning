@@ -495,6 +495,20 @@ async function loadReadme() {
     document.title = '华为OD备考学习笔记';
     setActiveNav('nav-home');
 
+    // Convert README .md links to use loadDoc
+    document.querySelectorAll('.welcome-readme a[href$=".md"]').forEach(a => {
+      const href = a.getAttribute('href');
+      if (href && !href.startsWith('http')) {
+        a.removeAttribute('href');
+        a.style.cursor = 'pointer';
+        a.onclick = (e) => {
+          e.preventDefault();
+          loadDoc(href);
+          toggleSidebar();
+        };
+      }
+    });
+
     // Add copy buttons
     addCopyButtons();
   } catch (e) {
@@ -537,6 +551,20 @@ async function loadDoc(path) {
 
     main.innerHTML = `<div class="markdown-body">${html}</div>`;
     document.title = `${title} - 华为OD备考笔记`;
+
+    // Convert internal .md links to use loadDoc
+    document.querySelectorAll('.markdown-body a[href$=".md"]').forEach(a => {
+      const href = a.getAttribute('href');
+      if (href && !href.startsWith('http')) {
+        a.removeAttribute('href');
+        a.style.cursor = 'pointer';
+        a.onclick = (e) => {
+          e.preventDefault();
+          loadDoc(href);
+          toggleSidebar();
+        };
+      }
+    });
 
     // Highlight active nav item
     document.querySelectorAll('.sidebar-item').forEach(el => {
