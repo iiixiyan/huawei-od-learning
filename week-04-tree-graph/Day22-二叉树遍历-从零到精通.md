@@ -441,20 +441,20 @@ def path_dfs_template(root):
         if not node:
             return
         
-        # 1️⃣ 在 state 中记录当前节点
-        new_state = update_state(state, node.val)
+        # 1️⃣ 在 state 中记录当前节点（自定义更新逻辑）
+        new_state = state + [node.val]  # 示例：路径列表追加当前节点
+        # 也可改为：new_state = max(state, node.val) 路径最大值等
         
         # 2️⃣ 如果是叶子节点，可能在此结算
         if not node.left and not node.right:
-            # 用 new_state 做最终处理
+            # 用 new_state 做最终处理（如统计、比较）
             pass
         
         # 3️⃣ 递归
         dfs(node.left, new_state)
         dfs(node.right, new_state)
     
-    dfs(root, initial_state)
-```
+    dfs(root, [])  # initial_state = 空列表，表示路径起点
 
 **示例** — 好节点计数：
 ```python
@@ -504,6 +504,8 @@ def goodNodes(root):
 
 **代码**：
 ```python
+from typing import Optional
+
 def maxDepth(root: Optional[TreeNode]) -> int:
     if not root:
         return 0
@@ -536,6 +538,8 @@ def maxDepth(root: Optional[TreeNode]) -> int:
 
 **代码**：
 ```python
+from typing import Optional
+
 def isSameTree(p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
     if not p and not q:
         return True
@@ -851,10 +855,13 @@ def dfs(node):
 # 2️⃣ BFS层序
 from collections import deque
 def bfs(root):
+    if not root:
+        return []
     q = deque([root])
     while q:
         for _ in range(len(q)):
             node = q.popleft()
+            # 处理当前节点
             if node.left: q.append(node.left)
             if node.right: q.append(node.right)
 
