@@ -49,6 +49,7 @@
 | Day 21 | **栈·队列·链表OD真题实战** — 四种核心套路模板、OD真题5道精讲、LRU缓存设计、考试策略 | ⭐⭐⭐ | [📖 查看](week-03-stack-queue-linkedlist/Day21-栈队列链表OD真题实战-从零到精通.md) |
 | Day 22 | **二叉树遍历** — 前序中序后序层序、递归迭代、最大深度、对称树、翻转树、好节点 | ⭐⭐ | [📖 查看](week-04-tree-graph/Day22-二叉树遍历-从零到精通.md) |
 | Day 23 | **树的构建** — 前序+中序构建、后序+中序构建、next串联、flatten、序列化、有序数组转BST | ⭐⭐⭐ | [📖 查看](week-04-tree-graph/Day23-树的构建-从零到精通.md) |
+| Day 24 | **树的路径** — Path Sum、Sum Numbers、Path Sum III前缀和、Max Path Sum、ZigZag、Prune Tree | ⭐⭐⭐ | [📖 查看](week-04-tree-graph/Day24-树的路径-从零到精通.md) |
 
 ---
 
