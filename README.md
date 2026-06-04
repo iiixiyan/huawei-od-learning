@@ -50,6 +50,7 @@
 | Day 22 | **二叉树遍历** — 前序中序后序层序、递归迭代、最大深度、对称树、翻转树、好节点 | ⭐⭐ | [📖 查看](week-04-tree-graph/Day22-二叉树遍历-从零到精通.md) |
 | Day 23 | **树的构建** — 前序+中序构建、后序+中序构建、next串联、flatten、序列化、有序数组转BST | ⭐⭐⭐ | [📖 查看](week-04-tree-graph/Day23-树的构建-从零到精通.md) |
 | Day 24 | **树的路径** — Path Sum、Sum Numbers、Path Sum III前缀和、Max Path Sum、ZigZag、Prune Tree | ⭐⭐⭐ | [📖 查看](week-04-tree-graph/Day24-树的路径-从零到精通.md) |
+| Day 25 | **BFS + 层序遍历** — 标准层序、右视图、平均值、Zigzag、最大层和、最左下节点 | ⭐⭐ | [📖 查看](week-04-tree-graph/Day25-BFS层序遍历-从零到精通.md) |
 
 ---
 
