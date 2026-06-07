@@ -50,9 +50,10 @@
 | Day 22 | **二叉树遍历** — 前序中序后序层序、递归迭代、最大深度、对称树、翻转树、好节点 | ⭐⭐ | [📖 查看](week-04-tree-graph/Day22-二叉树遍历-从零到精通.md) |
 | Day 23 | **树的构建** — 前序+中序构建、后序+中序构建、next串联、flatten、序列化、有序数组转BST | ⭐⭐⭐ | [📖 查看](week-04-tree-graph/Day23-树的构建-从零到精通.md) |
 | Day 24 | **树的路径** — Path Sum、Sum Numbers、Path Sum III前缀和、Max Path Sum、ZigZag、Prune Tree | ⭐⭐⭐ | [📖 查看](week-04-tree-graph/Day24-树的路径-从零到精通.md) |
-|| Day 25 | **BFS + 层序遍历** — 标准层序、右视图、平均值、Zigzag、最大层和、最左下节点 | ⭐⭐ | [📖 查看](week-04-tree-graph/Day25-BFS层序遍历-从零到精通.md) |
-|| Day 26 | **二叉搜索树BST** — 搜索、验证、第K小、删除、最小差、后继 | ⭐⭐⭐ | [📖 查看](week-04-tree-graph/Day26-二叉搜索树BST-从零到精通.md) |
-|| Day 27 | **树的综合** — BST迭代器、递增树、累加树、两数和、LCA、完全二叉树计数 | ⭐⭐⭐ | [📖 查看](week-04-tree-graph/Day27-树的综合-从零到精通.md) |
+| Day 25 | **BFS + 层序遍历** — 标准层序、右视图、平均值、Zigzag、最大层和、最左下节点 | ⭐⭐ | [📖 查看](week-04-tree-graph/Day25-BFS层序遍历-从零到精通.md) |
+| Day 26 | **二叉搜索树BST** — 搜索、验证、第K小、删除、最小差、后继 | ⭐⭐⭐ | [📖 查看](week-04-tree-graph/Day26-二叉搜索树BST-从零到精通.md) |
+| Day 27 | **树的综合** — BST迭代器、递增树、累加树、两数和、LCA、完全二叉树计数 | ⭐⭐⭐ | [📖 查看](week-04-tree-graph/Day27-树的综合-从零到精通.md) |
+| Day 28 | **树与图周复习** — 四大遍历套路模板、BST中序大法、路径问题四模式、6道经典题精讲、OD实战指南 | ⭐⭐⭐ | [📖 查看](week-04-tree-graph/Day28-树与图周复习-从零到精通.md) |
 
 ---
 
